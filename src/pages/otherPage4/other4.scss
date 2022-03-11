@@ -1,0 +1,37 @@
+.section-todo{
+    padding-top: 100px;
+    background-image: linear-gradient(to top , rgb(170, 228, 243), rgb(30, 199, 241) );
+    padding-bottom: 150px;
+    .section-todo-content{
+        .form-form{
+            padding-bottom: 30px;
+            select{
+                padding: 0 20px;
+            }
+        }
+        padding: 0 200px;
+        h1{
+            text-align: center;
+        }
+        .item{
+            height: 40px;
+            width: 100%;
+            background-color: #fff;
+            padding: 0;
+            margin-bottom: 10px;
+            .content-task{
+                width: 80%;
+                padding-left: 10px;
+            }
+            .btn-btn{
+                height: 100%;
+                width: 20%;
+                button{
+                    height: 100%;
+                    width: 33.333333%;
+                    border: 0;
+                }
+            }
+        }
+    }
+}

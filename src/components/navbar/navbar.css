@@ -1,0 +1,21 @@
+.my-navbar .my-navbar-content .content-left img {
+  width: 60%;
+}
+
+.my-navbar .my-navbar-content .content-right .navbar-nav .nav-link {
+  padding-bottom: 0;
+  padding-top: 15px;
+}
+
+.my-navbar .my-navbar-content .content-right .navbar-nav .nav-link .item-nav {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  line-height: 20px;
+  padding-right: 5px;
+}
+
+.my-navbar .my-navbar-content .content-right .navbar-nav .nav-link .item-nav:hover {
+  color: #08e0e0;
+}
+/*# sourceMappingURL=navbar.css.map */

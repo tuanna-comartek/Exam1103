@@ -1,0 +1,115 @@
+.section-login{
+    margin: 0;
+    padding: 0;
+    .area{
+        background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+        // justify-content: space-between;
+        .content-left{
+            .content-left-contents{
+                margin-top: 100px;
+                margin-left: 61px;
+                border-radius: 8px;
+                height: 500px;
+                // background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+                background-color: #f3f8fb;
+                overflow: hidden;
+                .car-car{
+                    margin-left: 0;
+                    position: relative;
+                    animation-name: car-run;
+                    animation-duration: 6s;
+                    animation-iteration-count: infinite;
+                }
+                @keyframes car-run {
+                    0%   { left:0px; top:0px;}
+                    100%  {left:100%; top:0px;}
+                }
+                h1{
+                    margin: 0 auto;
+                    .anagram-swap{
+                        color: rgb(87, 71, 133);
+                        font-size: 40px;
+                        text-align: center;
+
+                    }
+                    p{
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .login-form{
+            form{
+                .content{
+                    background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+                    .field{
+                        .control{
+                            .input{
+                                border-radius: 8px;
+                                border: none;
+                                height: 30px;
+                                width: 250px;
+                            }
+                        }
+                    }
+                    .btn-login{
+                        border: none;
+                        border-radius: 8px;
+                        height: 30px;
+                        width: 100px;
+                    }
+                    .btn-login:hover{
+                        background-color: #bccccf;
+                    }
+                    p{
+                        span:hover{
+                            color: aqua;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.section-register{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+    .content{
+        background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+        .field{
+            .control{
+                .input{
+                    border: none;
+                    border-radius: 8px;
+                    height: 30px;
+                    width: 250px;
+                }
+            }
+        }
+        .btn-reg{
+            border: none;
+            border-radius: 8px;
+            height: 30px;
+            width: 100px;
+        }
+        p{
+            span:hover{
+                color: aqua;
+                cursor: pointer;
+            }
+        }
+    }
+    .title{
+        padding-bottom: 60px;
+        h1{
+            color: #fff;
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    .content-left{
+        display: none;
+    }
+}

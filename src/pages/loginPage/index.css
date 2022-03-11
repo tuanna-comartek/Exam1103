@@ -1,0 +1,139 @@
+.section-login {
+  margin: 0;
+  padding: 0;
+}
+
+.section-login .area {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(54, 207, 205, 0.733)), to(#082026));
+  background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+}
+
+.section-login .area .content-left .content-left-contents {
+  margin-top: 100px;
+  margin-left: 61px;
+  border-radius: 8px;
+  height: 500px;
+  background-color: #f3f8fb;
+  overflow: hidden;
+}
+
+.section-login .area .content-left .content-left-contents .car-car {
+  margin-left: 0;
+  position: relative;
+  -webkit-animation-name: car-run;
+          animation-name: car-run;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes car-run {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 100%;
+    top: 0px;
+  }
+}
+
+@keyframes car-run {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 100%;
+    top: 0px;
+  }
+}
+
+.section-login .area .content-left .content-left-contents h1 {
+  margin: 0 auto;
+}
+
+.section-login .area .content-left .content-left-contents h1 .anagram-swap {
+  color: #574785;
+  font-size: 40px;
+  text-align: center;
+}
+
+.section-login .area .content-left .content-left-contents h1 p {
+  font-size: 14px;
+  text-align: center;
+}
+
+.section-login .area .login-form form .content {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(54, 207, 205, 0.733)), to(#082026));
+  background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+}
+
+.section-login .area .login-form form .content .field .control .input {
+  border-radius: 8px;
+  border: none;
+  height: 30px;
+  width: 250px;
+}
+
+.section-login .area .login-form form .content .btn-login {
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  width: 100px;
+}
+
+.section-login .area .login-form form .content .btn-login:hover {
+  background-color: #bccccf;
+}
+
+.section-login .area .login-form form .content p span:hover {
+  color: aqua;
+}
+
+.section-register {
+  margin: 0;
+  padding: 0;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(54, 207, 205, 0.733)), to(#082026));
+  background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+}
+
+.section-register .content {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(54, 207, 205, 0.733)), to(#082026));
+  background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+}
+
+.section-register .content .field .control .input {
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  width: 250px;
+}
+
+.section-register .content .btn-reg {
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  width: 100px;
+}
+
+.section-register .content p span:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+.section-register .title {
+  padding-bottom: 60px;
+}
+
+.section-register .title h1 {
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  .content-left {
+    display: none;
+  }
+}
+/*# sourceMappingURL=index.css.map */
