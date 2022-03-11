@@ -27,16 +27,24 @@ function TodoForm(props: any) {
   const handleFilter = () => {
     switch (itemSelect) {
       case "completed":
-        setFilterTodo(filterTodo.filter((td: ITask) => td.status));
-        console.log(filterTodo);
+        setFilterTodo(() => {
+          const arr = filterTodo.filter((td: ITask) => td.status);
+          console.log(filterTodo);
+          return arr;
+        });
         break;
       case "notCompleted":
-        setFilterTodo(filterTodo.filter((td: ITask) => !td.status));
-        console.log(filterTodo);
+        setFilterTodo(() => {
+          const arr = filterTodo.filter((td: ITask) => !td.status);
+          console.log(filterTodo);
+          return arr;
+        });
         break;
       default:
-        setFilterTodo(filterTodo);
-        console.log(filterTodo);
+        setFilterTodo(() => {
+          console.log(filterTodo);
+          return filterTodo;
+        });
         break;
     }
   };

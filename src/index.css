@@ -3,4 +3,7 @@
 @import url(pages/otherPage4/other4.css);
 @import url(pages/TodoList/todolist.css);
 @import url(pages/loginPage/index.css);
+body {
+  font-family: cursive;
+}
 /*# sourceMappingURL=index.css.map */

@@ -1,19 +1,24 @@
 .section-login {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 .section-login .area {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(54, 207, 205, 0.733)), to(#082026));
-  background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+  background-image: url("https://colorlib.com/etc/lf/Login_v5/images/bg-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 95px;
+  margin: 0 auto;
 }
 
 .section-login .area .content-left .content-left-contents {
-  margin-top: 100px;
-  margin-left: 61px;
+  background-color: rgba(255, 255, 255, 0.596);
   border-radius: 8px;
   height: 500px;
-  background-color: #f3f8fb;
+  border: 1px solid gray;
   overflow: hidden;
 }
 
@@ -65,62 +70,88 @@
   text-align: center;
 }
 
+.section-login .area .content-left .content-left-contents .section-btn .btn button:hover {
+  opacity: 80%;
+}
+
+.section-login .area .login-form form {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 100%;
+}
+
 .section-login .area .login-form form .content {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(54, 207, 205, 0.733)), to(#082026));
-  background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+  background-color: rgba(255, 255, 255, 0.596);
 }
 
 .section-login .area .login-form form .content .field .control .input {
-  border-radius: 8px;
-  border: none;
-  height: 30px;
-  width: 250px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  height: 40px;
+  width: 300px;
+  outline-color: #37a9a4;
 }
 
 .section-login .area .login-form form .content .btn-login {
-  border: none;
-  border-radius: 8px;
-  height: 30px;
-  width: 100px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  height: 40px;
+  width: 300px;
 }
 
 .section-login .area .login-form form .content .btn-login:hover {
-  background-color: #bccccf;
+  background-color: black;
+  color: #fff;
 }
 
 .section-login .area .login-form form .content p span:hover {
-  color: aqua;
+  color: #37a9a4;
+}
+
+.section-login .area .login-form form .content p span {
+  color: black;
 }
 
 .section-register {
   margin: 0;
   padding: 0;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(54, 207, 205, 0.733)), to(#082026));
-  background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+  height: 100%;
+  background-image: url("https://colorlib.com/etc/lf/Login_v5/images/bg-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-register .content {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(54, 207, 205, 0.733)), to(#082026));
-  background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+  background-color: rgba(255, 255, 255, 0.596);
 }
 
 .section-register .content .field .control .input {
-  border: none;
-  border-radius: 8px;
-  height: 30px;
-  width: 250px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  height: 40px;
+  width: 300px;
+  outline-color: #37a9a4;
 }
 
 .section-register .content .btn-reg {
-  border: none;
-  border-radius: 8px;
-  height: 30px;
-  width: 100px;
+  border: 1px solid gray;
+  border-radius: 20px;
+  height: 40px;
+  width: 300px;
+}
+
+.section-register .content .btn-reg:hover {
+  background-color: black;
+  color: #fff;
 }
 
 .section-register .content p span:hover {
-  color: aqua;
   cursor: pointer;
+  color: #37a9a4;
+}
+
+.section-register .content p span {
+  color: #494948;
 }
 
 .section-register .title {

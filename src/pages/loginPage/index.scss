@@ -1,17 +1,23 @@
 .section-login{
     margin: 0;
     padding: 0;
+    height: 100%;
     .area{
-        background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
-        // justify-content: space-between;
+        background-image: url("https://colorlib.com/etc/lf/Login_v5/images/bg-01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        // background-color: #21504d;
+        height: 100%;
+        padding-top: 100px;
+        padding-bottom: 95px;
+        margin: 0 auto;
+        // background-blend-mode: darken;
         .content-left{
             .content-left-contents{
-                margin-top: 100px;
-                margin-left: 61px;
+                background-color: rgba(255, 255, 255, 0.596);
                 border-radius: 8px;
                 height: 500px;
-                // background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
-                background-color: #f3f8fb;
+                border: 1px solid gray;
                 overflow: hidden;
                 .car-car{
                     margin-left: 0;
@@ -37,35 +43,52 @@
                         text-align: center;
                     }
                 }
+                .section-btn{
+                    .btn{
+                        button:hover{
+                            opacity: 80%;
+                        }
+                    }
+                }
             }
         }
         .login-form{
             form{
+                border: 1px solid gray;
+                border-radius: 10px;
+                width: 100%;
                 .content{
-                    background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+                    background-color: rgba(255, 255, 255, 0.596);
+                    // background-image: linear-gradient(0deg, rgba(228, 226, 138, 0.733), rgba(54, 207, 205, 0.733));
                     .field{
                         .control{
                             .input{
-                                border-radius: 8px;
-                                border: none;
-                                height: 30px;
-                                width: 250px;
+                                border-radius: 20px;
+                                border: 1px solid gray;
+                                height: 40px;
+                                width: 300px;
+                                outline-color: #37a9a4;
                             }
                         }
                     }
                     .btn-login{
-                        border: none;
-                        border-radius: 8px;
-                        height: 30px;
-                        width: 100px;
+                        border: 1px solid gray;
+                        border-radius: 20px;
+                        height: 40px;
+                        width: 300px;
                     }
                     .btn-login:hover{
-                        background-color: #bccccf;
+                        background-color: black;
+                        color: #fff;
                     }
                     p{
                         span:hover{
-                            color: aqua;
+                            color: #37a9a4;
                         }
+                        span{
+                            color:black;
+                        }
+
                     }
                 }
             }
@@ -75,29 +98,40 @@
 .section-register{
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+    height: 100%;
+    background-image: url("https://colorlib.com/etc/lf/Login_v5/images/bg-01.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
     .content{
-        background-image: linear-gradient(0deg, rgba(54, 207, 205, 0.733), #082026);
+        background-color: rgba(255, 255, 255, 0.596);
         .field{
             .control{
                 .input{
-                    border: none;
-                    border-radius: 8px;
-                    height: 30px;
-                    width: 250px;
+                    border: 1px solid gray;
+                    border-radius: 20px;
+                    height: 40px;
+                    width: 300px;
+                    outline-color: #37a9a4;
                 }
             }
         }
         .btn-reg{
-            border: none;
-            border-radius: 8px;
-            height: 30px;
-            width: 100px;
+            border: 1px solid gray;
+            border-radius: 20px;
+            height: 40px;
+            width: 300px;
+        }
+        .btn-reg:hover{
+            background-color: black;
+            color: #fff;
         }
         p{
             span:hover{
-                color: aqua;
                 cursor: pointer;
+                color: #37a9a4;
+            }
+            span{
+                color: #494948;
             }
         }
     }

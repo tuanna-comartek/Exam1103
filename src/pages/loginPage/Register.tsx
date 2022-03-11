@@ -42,14 +42,14 @@ const RegisterPage = () => {
           paddingTop: 100,
           paddingBottom: 150,
         }}
-        className="section-register"
+        className="section-register container-fluid"
       >
         <div
           className=" is-justify-content-center content"
           style={{
             maxWidth: 400,
             minWidth: 399,
-            minHeight: 500,
+            minHeight: 600,
             maxHeight: 501,
             textAlign: "center",
             border: "solid 1px gray",
@@ -58,12 +58,13 @@ const RegisterPage = () => {
           }}
         >
           <div className="title">
-            <h1 style={{ fontSize: 40, fontWeight: 600, paddingBottom: 30 }}>
+            <h1 style={{ fontSize: 40, fontWeight: 600, paddingBottom: 10 }}>
               Register
             </h1>
           </div>
           <form>
             <div className="field">
+              <label>Your Email</label>
               <p className="control has">
                 <input
                   className="input"
@@ -72,10 +73,12 @@ const RegisterPage = () => {
                   value={email}
                   onChange={handleEmail}
                   required
+                  style={{ padding: "0 20px" }}
                 />
               </p>
             </div>
             <div className="field">
+              <label>User Name</label>
               <p className="control ">
                 <input
                   className="input"
@@ -84,10 +87,12 @@ const RegisterPage = () => {
                   value={userName}
                   onChange={handleUserName}
                   required
+                  style={{ padding: "0 20px" }}
                 />
               </p>
             </div>
             <div className="field" style={{ paddingBottom: 40 }}>
+              <label>PassWord</label>
               <p className="control ">
                 <input
                   className="input"
@@ -96,6 +101,7 @@ const RegisterPage = () => {
                   value={passWord}
                   onChange={handlePassword}
                   required
+                  style={{ padding: "0 20px" }}
                 />
               </p>
             </div>
