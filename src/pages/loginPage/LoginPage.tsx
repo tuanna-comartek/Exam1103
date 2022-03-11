@@ -40,8 +40,8 @@ const LoginPage = () => {
         style={{ overflow: "hidden", height: "100%" }}
       >
         <div className="row area" style={{ height: "100%" }}>
-          <div className=" col-lg-7 content-left" style={{ height: "100%" }}>
-            <div className="content-left-contents">
+          <div className=" col-lg-7 content-left" style={{ minHeight: 700 }}>
+            <div className="content-left-contents" style={{ height: 520 }}>
               <Title />
               <img
                 className="car-car"
@@ -62,11 +62,14 @@ const LoginPage = () => {
                 }}
                 className="section-btn"
               >
-                <div style={{ display: "inline-grid" }} className="btn">
+                <div
+                  style={{ display: "inline-grid", width: "80%" }}
+                  className="btn"
+                >
                   <button
                     style={{
                       marginBottom: 10,
-                      width: 300,
+                      width: "100%",
                       borderRadius: 20,
                       backgroundColor: "#4267B2",
                       border: "1px solid transparent",
@@ -78,7 +81,7 @@ const LoginPage = () => {
                   <button
                     style={{
                       marginBottom: 10,
-                      width: 300,
+                      width: "100%",
                       borderRadius: 20,
                       backgroundColor: "#1DA1F2",
                       border: "1px solid transparent",
@@ -90,7 +93,7 @@ const LoginPage = () => {
                   <button
                     style={{
                       marginBottom: 10,
-                      width: 300,
+                      width: "100%",
                       borderRadius: 20,
                       backgroundColor: "#DB4437",
                       border: "1px solid transparent",
@@ -105,18 +108,15 @@ const LoginPage = () => {
           </div>
           <div
             style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
+              minHeight: 700,
             }}
             className="login-form col-lg-5"
           >
-            <form>
+            <form style={{ height: 520 }}>
               <div
                 className=" is-justify-content-center content"
                 style={{
-                  minHeight: 500,
-                  maxHeight: 501,
+                  height: "100%",
                   textAlign: "center",
                   padding: 25,
                   borderRadius: 8,

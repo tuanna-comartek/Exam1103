@@ -23,11 +23,11 @@ const AppRouter = () => {
               return localStorage.getItem("accessToken") ? (
                 <Navigation />
               ) : (
-                <Redirect to="/Exam1103" />
+                <Redirect to="/" />
               );
             }}
           ></Route>
-          <Route path="/Exam1103" exact={true}>
+          <Route path="/" exact={true}>
             <LoginPage />
           </Route>
         </Switch>

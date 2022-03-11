@@ -39,7 +39,7 @@ const RegisterPage = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          paddingTop: 100,
+          paddingTop: 150,
           paddingBottom: 150,
         }}
         className="section-register container-fluid"

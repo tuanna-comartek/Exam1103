@@ -11,14 +11,15 @@
         padding-top: 100px;
         padding-bottom: 95px;
         margin: 0 auto;
-        // background-blend-mode: darken;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .content-left{
             .content-left-contents{
                 background-color: rgba(255, 255, 255, 0.596);
                 border-radius: 8px;
-                height: 500px;
                 border: 1px solid gray;
-                overflow: hidden;
+                // overflow: hidden;
                 .car-car{
                     margin-left: 0;
                     position: relative;
@@ -66,7 +67,7 @@
                                 border-radius: 20px;
                                 border: 1px solid gray;
                                 height: 40px;
-                                width: 300px;
+                                width: 100%;
                                 outline-color: #37a9a4;
                             }
                         }
@@ -75,7 +76,9 @@
                         border: 1px solid gray;
                         border-radius: 20px;
                         height: 40px;
-                        width: 300px;
+                        width: 100%;
+                        min-width: 300px;
+                        max-width: 500px;
                     }
                     .btn-login:hover{
                         background-color: black;

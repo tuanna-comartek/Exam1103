@@ -12,14 +12,21 @@
   padding-top: 100px;
   padding-bottom: 95px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .section-login .area .content-left .content-left-contents {
   background-color: rgba(255, 255, 255, 0.596);
   border-radius: 8px;
-  height: 500px;
   border: 1px solid gray;
-  overflow: hidden;
 }
 
 .section-login .area .content-left .content-left-contents .car-car {
@@ -88,7 +95,7 @@
   border-radius: 20px;
   border: 1px solid gray;
   height: 40px;
-  width: 300px;
+  width: 100%;
   outline-color: #37a9a4;
 }
 
@@ -96,7 +103,9 @@
   border: 1px solid gray;
   border-radius: 20px;
   height: 40px;
-  width: 300px;
+  width: 100%;
+  min-width: 300px;
+  max-width: 500px;
 }
 
 .section-login .area .login-form form .content .btn-login:hover {
