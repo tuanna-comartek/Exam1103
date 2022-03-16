@@ -10,7 +10,6 @@ const Todo = (props: any) => {
     id: null,
     value: "",
   });
-
   const submitUpdate = (value: string) => {
     updateTodo(edit.id, value);
     setEdit({
