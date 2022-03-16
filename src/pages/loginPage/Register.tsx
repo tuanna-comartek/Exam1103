@@ -7,7 +7,7 @@ const RegisterPage = () => {
   const [passWord, setPassWord] = useState("");
   const history = useHistory();
   const changePage = () => {
-    history.replace("/");
+    history.replace("/exam1103");
   };
   const handleEmail = (e: FormEvent<HTMLInputElement>) => {
     setEmail(e.currentTarget.value);
@@ -24,7 +24,7 @@ const RegisterPage = () => {
   const handleRegister = () => {
     if (email !== "" && passWord !== "" && userName !== "") {
       alert("Register Success !!!");
-      history.replace("/");
+      history.replace("/exam1103");
     } else {
       alert("Failed ! Try it again !");
     }
