@@ -103,7 +103,7 @@ function TodoList() {
     });
     setTodos(updatedTodos);
     addToast("Changed Success", {
-      appearance: "success",
+      appearance: "warning",
       autoDismiss: true,
     });
   };
