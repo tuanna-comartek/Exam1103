@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://tuanna-comartek.github.io/Exam1103/",
   "dependencies": {
+    "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
@@ -14,6 +15,8 @@
     "@types/react-toast-notifications": "^2.4.1",
     "@types/uuid": "^8.3.4",
     "axios": "^0.26.0",
+    "formik": "^2.2.9",
+    "material-ui": "^0.20.2",
     "react": "^17.0.2",
     "react-anagram-animation": "^1.1.3",
     "react-dom": "^17.0.2",
@@ -22,7 +25,8 @@
     "react-scripts": "5.0.0",
     "react-toast-notifications": "^2.5.1",
     "typescript": "^4.6.2",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,5 +1,6 @@
 import React, { FormEvent, useState } from "react";
 import { useHistory } from "react-router-dom";
+import RegisterPageFormik from "./RegisterPageFormik";
 
 const RegisterPage = () => {
   const [email, setEmail] = useState("");
@@ -57,12 +58,12 @@ const RegisterPage = () => {
             borderRadius: 8,
           }}
         >
-          <div className="title">
+          {/* <div className="title">
             <h1 style={{ fontSize: 40, fontWeight: 600, paddingBottom: 10 }}>
               Register
             </h1>
-          </div>
-          <form>
+          </div> */}
+          {/* <form>
             <div className="field">
               <label>Your Email</label>
               <p className="control has">
@@ -117,7 +118,8 @@ const RegisterPage = () => {
             <p onClick={changePage}>
               <span>Do you already have an account ? Let sign in ! </span>
             </p>
-          </form>
+          </form> */}
+          <RegisterPageFormik />
         </div>
       </div>
     </>

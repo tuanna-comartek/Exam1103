@@ -83,8 +83,6 @@
 }
 
 .section-login .area .login-form form {
-  border: 1px solid gray;
-  border-radius: 10px;
   width: 100%;
 }
 
@@ -120,6 +118,16 @@
 
 .section-login .area .login-form form .content p span {
   color: black;
+}
+
+.section-login .area .login-form .makeStyles-root-1 {
+  background-color: rgba(255, 255, 255, 0.596);
+  padding-top: 40px;
+}
+
+.section-login .area .login-form .makeStyles-root-1 form .MuiGrid-root {
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .section-register {

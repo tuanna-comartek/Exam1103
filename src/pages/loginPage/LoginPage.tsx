@@ -6,6 +6,7 @@ import car from "../../asset/images/pngwing.com.png";
 import Title from "./AnimationTitle";
 import { FaGoogle, FaFacebookF } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io";
+import LoginPageFormik from "./LoginPageFormik";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
@@ -112,7 +113,7 @@ const LoginPage = () => {
             }}
             className="login-form col-lg-5"
           >
-            <form style={{ height: 520 }}>
+            {/* <form style={{ height: 520 }}>
               <div
                 className=" is-justify-content-center content"
                 style={{
@@ -175,7 +176,8 @@ const LoginPage = () => {
                   <span>Do you already have an account ? Let sign up ! </span>
                 </p>
               </div>
-            </form>
+            </form> */}
+            <LoginPageFormik />
           </div>
         </div>
       </div>
